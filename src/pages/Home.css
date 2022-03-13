@@ -1,0 +1,26 @@
+.home {
+  justify-content: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  background: #eee;
+}
+
+.home__row {
+  z-index: 1;
+  display: flex;
+  
+  margin: 0 5px;
+}
+
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -200px;
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent);
+}
