@@ -13,3 +13,11 @@
   object-fit: contain;
   /* max-width: 200px; */
 }
+
+.product__button {
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: goldenrod;
+  border: 1px solid;
+}

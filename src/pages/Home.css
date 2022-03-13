@@ -8,19 +8,13 @@
 .home__row {
   z-index: 1;
   display: flex;
-  
+  flex: 1;
   margin: 0 5px;
 }
 
 .home__image {
   width: 100%;
-  z-index: -1;
-  margin-bottom: -150px;
-}
-
-.home__image {
-  width: 100%;
-  z-index: -1;
-  margin-bottom: -200px;
+  z-index: -9;
+  margin-bottom: -220px;
   -webkit-mask-image: linear-gradient(to bottom, black, transparent);
 }
