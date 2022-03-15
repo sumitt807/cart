@@ -1,0 +1,14 @@
+.checkout {
+  display: flex;
+  width: 1500px;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.checkout__left {
+  flex: 4 1 0;
+}
+
+.checkout__right {
+  flex: 2 1 0;
+}

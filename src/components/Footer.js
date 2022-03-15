@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 
 const backToTop = () => {
-    window.scrollTo(0, 0)
+    window.scrollTo()
 }
 
 function Footer() {

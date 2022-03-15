@@ -1,0 +1,17 @@
+.cartItme {
+  display: flex;
+  margin: 15px auto;
+  column-gap: 25px;
+  justify-content: space-between;
+}
+
+.cartItme__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+  font-size: 20px;
+}
+
+button.cartItme__button {
+  width: fit-content;
+}
