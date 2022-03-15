@@ -1,7 +1,61 @@
 .footer {
-  background: rgb(46, 46, 46);
+  background: #232f3e;
   color: white;
   margin: 0 auto;
-  padding: 5px;
   text-align: center;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1;
+  column-gap: 10px;
+}
+
+.footer__row.footer__two {
+  max-width: 1200px;
+  margin: auto;
+  margin: 40px auto;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.navFooterColHead {
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer__backToTop {
+  background-color: #37475a;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+}
+.footer__last ul {
+  display: flex;
+  flex: 1;
+  column-gap: 15px;
+  justify-content: center;
+}
+
+.footer__row.footer__last {
+  background: #131a22;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.product__rating {
+  color: #ffa41c;
+}
+
+.footer__backToTop {
+  cursor: pointer;
 }

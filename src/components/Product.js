@@ -1,5 +1,6 @@
 import React from 'react'
 import StarIcon from '@mui/icons-material/Star';
+import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import "./Product.css"
 
 const Product = ({ id, title, price, rating, image }) => {
@@ -14,6 +15,9 @@ const Product = ({ id, title, price, rating, image }) => {
         <div className='product__rating'>
           {[...Array(rating)].map((x, i) =>
             <StarIcon />
+          )}
+          {[...Array(5 - rating)].map((x, i) =>
+            <StarOutlineIcon />
           )}
         </div>
       </div>
